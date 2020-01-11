@@ -24,20 +24,34 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    @media @phone{
+      .blast{
+        .i-style(100px,100px);
+      }
+      .sky{
+        display:none;
+      }
+      .launch{
+        display:none;
+      }
+    }
 
     img {
       width: 28%;
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
-      @media @phone{
-        display:none;
-      }
-    }
-    .blast{
-      @media @phone{
-        .i-style(100px,100px);
-      }
+    //   @media @phone{
+    //     .blast{
+    //       display:none;
+    //     }
+        
+    //   }
+    // }
+    // .blast{
+    //   @media @phone{
+    //     .i-style(100px,100px);
+    //   }
     }
   }
 
@@ -73,11 +87,17 @@
       p {
         margin-bottom: 26px;
       }
+    .walk-img{
+      .i-style(10px,10px);
+    }
 
       .btn {
         .button(@ebony-clay, white,50px,150px);
         font-size:1.5rem;
         .clickable(white);
+        @media @phone{
+          .i-style(50px,300px);
+        }
       }
     }
 
