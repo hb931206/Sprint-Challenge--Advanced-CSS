@@ -181,7 +181,7 @@ header nav {
   align-items: center;
 }
 header a {
-  margin: 1%;
+  margin: 0.5%;
   padding: 1%;
   color: #23293B;
   font-size: 1.5rem;
@@ -237,6 +237,20 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  background-color: #23293B;
+  height: 50px;
+  width: 150px;
+  font-size: 1.5rem;
+  color: white;
+}
+.home .walk .walk-text .btn:hover {
+  color: #b3b3b3;
 }
 .home .walk .walk-img {
   width: 46%;

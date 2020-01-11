@@ -5,3 +5,20 @@
     align-items: center;
 
 }
+
+.button(@a, @b,@c, @d){
+    .center();
+    border-radius: 5%;
+    background-color:@a;
+    color:@b;
+    height:@c;
+    width:@d;
+}
+
+.clickable(@c) {
+    color: @c;
+    
+    &:hover {
+      color: darken(@c, 30%);
+    }
+  }
