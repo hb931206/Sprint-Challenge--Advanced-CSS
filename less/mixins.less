@@ -1,1 +1,33 @@
 // Mixins Here
+.center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.i-style(@h, @w){
+  height:@h;
+  width:@w;
+}
+
+.button(@a, @b,@c, @d){
+    .center();
+    border-radius: 5%;
+    background-color:@a;
+    color:@b;
+    height:@c;
+    width:@d;
+}
+
+.clickable(@c) {
+  color: @c;
+  
+  &:hover {
+    color:green;
+    background-color: yellow;
+  }
+}
+
+
+  

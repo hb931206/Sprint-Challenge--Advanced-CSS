@@ -133,3 +133,14 @@ After finishing your required elements, you can push your work further. These go
 * [ ] Create a fixed navigation and add some opacity to the background
 
 * [ ] Create a form that would allow someone to sign up for a Spacewalkers Magazine subscription
+
+	1.	What is the difference between an adaptive website and a fully responsive website?
+	⁃	Adaptive website have width hardcoded in and are created with a certain device in mind. Fully responsive use media queries and can accommodate different devices and screen sizes. 
+	2.	Describe what it means to be mobile first vs desktop first.
+	⁃	Mobile first means that you design for a mobile device first and then will design later version for desktop once you have more users. 
+	3.	What does font-size: 62.5% in the html tag do for us when using rem units? 
+	⁃	Converts 1rem to 10px and makes rems easier to compare than em.  
+	4.	How would you describe preprocessing to someone new to CSS?
+	⁃	It’s an easier to follow way to write CSS. A lot grouping of similar items so you can keep tracks of them and fix bugs faster. 
+	5.	What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+	⁃	My favorite concept was nesting items and being able to read code easier. Mixins gave me the most trouble.  
